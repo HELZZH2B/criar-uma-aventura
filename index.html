@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Coragem E Sabedoria</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/img/cenario-passo0.png" alt="">
+            <p>Ellie é uma jovem exploradora corajosa.  Ela ouviu falar de um tesouro lendário escondido nas profundezas da floresta enevoada e decidiu embarcar nesta jornada.
+
+                Ellie colocou a mochila e entrou na floresta enevoada de acordo com o mapa.  A floresta é escura e úmida, cercada por uma névoa misteriosa.  Ela sabia que nesta floresta teria que fazer escolhas cuidadosas.  Há todas as árvores na minha frente. Há um caminho tênue entre as árvores e também há uma árvore que pode ser escalada.  Ellie decidiu:
+            </p>
+            <button class="btn-proximo" data-proximo="1">Siga o Caminho</button>
+            <button class="btn-proximo" data-proximo="2">Subir em árvores</button>
+        </div>  
+        <div class="passo" id="passo-1">
+            <img src="img/img/cenario-passo1.png" alt="">
+            <p>Ellie opta por seguir o caminho e descobre uma velha ponte.  Na verdade, havia um guarda na ponte, e o guarda disse a ela que se ela quisesse passar, ela deveria responder três enigmas.</p>
+            <button class="btn-proximo" data-proximo="3">responder</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ellie opta por subir em uma árvore, onde descobre um ponto de observação escondido de onde pode ver a floresta em sua totalidade.  Ela viu um riacho cintilante que parecia levar ao tesouro.</p>
+            <button class="btn-proximo" data-proximo="5">caminhar ao longo do rio</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ellie resolve com sucesso o enigma do guarda e ganha uma mensagem secreta que leva ao tesouro.</p>
+            <button class="btn-proximo" data-proximo="7">Vá para o lugar do tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você não ganhou nada, mas chegou em casa em segurança.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/img/cenario-passo5.png" alt="">
+            <p>Ela segue o rio e descobre um templo abandonado contendo artefatos antigos e pistas do tesouro.  O tesouro está em outro templo.</p>
+            <button class="btn-proximo" data-proximo="7">Vá para outro templo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você tem que voltar por causa de perigos desconhecidos.  E no caminho de volta, você não quer voltar de mãos vazias.  De repente, a neblina circundante dissipou-se e as paredes foram cobertas com vários murais herdados deixados por civilizações antigas, descrevendo aquele passado glorioso.  Depois de saber de tudo isso.  Você pensa bem, parece que você não saiu de mãos vazias.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ellie continua e, eventualmente, enfrenta um momento decisivo.  No templo, ela encontrou um enorme baú de tesouro com dois interruptores próximos a ele.</p>
+            <button class="btn-proximo" data-proximo="8">Ligue o interruptor à esquerda</button>
+            <button class="btn-proximo" data-proximo="9">Ligue o interruptor à direita</button>
+        </div>
+
+
+        <div class="passo" id="passo-8">
+            <p>Ela opta por ligar o interruptor da esquerda, e o baú do tesouro se abrirá, revelando os itens vivos dos povos indígenas que existiram por muito tempo na floresta.  Ellie obtém alguns artefatos, mas a névoa da floresta começa a se formar e ela evacua rapidamente.  Quando ela estava prestes a sair, Ellie tropeçou em um tronco de árvore no meio da névoa espessa e as relíquias culturais em seus braços foram quebradas.  Ela não encontrou nada, mas voltou para casa em segurança.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ela optou por ligar o interruptor do lado direito, e o baú do tesouro liberou uma poderosa energia mágica, trazendo luz e esperança.  A névoa da floresta irá se dissipar gradualmente e Ellie voltará para casa em segurança com os segredos do tesouro e as bênçãos da floresta.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
